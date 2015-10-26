@@ -17,7 +17,7 @@ enum ErrorMessage: ErrorType, CustomStringConvertible {
             return "Unable to fetch"
         case .HTMLCode(let code):
             return "HTML Error Code: \(code)"
-            
+            //adding error case
         }
     }
 }
