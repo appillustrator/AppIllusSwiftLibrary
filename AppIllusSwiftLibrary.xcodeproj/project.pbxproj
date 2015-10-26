@@ -14,6 +14,7 @@
 		E1CD211E1BDDC589002A0421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CD211C1BDDC589002A0421 /* LaunchScreen.storyboard */; };
 		E1CD21291BDDC589002A0421 /* AppIllusSwiftLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD21281BDDC589002A0421 /* AppIllusSwiftLibraryTests.swift */; };
 		E1CD21341BDDC589002A0421 /* AppIllusSwiftLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD21331BDDC589002A0421 /* AppIllusSwiftLibraryUITests.swift */; };
+		E1CD21421BDDC76E002A0421 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD21411BDDC76E002A0421 /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E1CD212F1BDDC589002A0421 /* AppIllusSwiftLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIllusSwiftLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CD21331BDDC589002A0421 /* AppIllusSwiftLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIllusSwiftLibraryUITests.swift; sourceTree = "<group>"; };
 		E1CD21351BDDC589002A0421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CD21411BDDC76E002A0421 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E1CD21131BDDC589002A0421 /* AppDelegate.swift */,
 				E1CD21151BDDC589002A0421 /* ViewController.swift */,
+				E1CD21411BDDC76E002A0421 /* Error.swift */,
 				E1CD21171BDDC589002A0421 /* Main.storyboard */,
 				E1CD211A1BDDC589002A0421 /* Assets.xcassets */,
 				E1CD211C1BDDC589002A0421 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1CD21161BDDC589002A0421 /* ViewController.swift in Sources */,
+				E1CD21421BDDC76E002A0421 /* Error.swift in Sources */,
 				E1CD21141BDDC589002A0421 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
